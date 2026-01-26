@@ -371,22 +371,26 @@ export default function Home() {
       <div className="h-screen w-screen bg-black flex justify-center overflow-hidden">
         <div className="w-full max-w-[420px] h-full bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-y-auto scrollbar-hide">
 
-          <div className="sticky top-0 z-10 bg-slate-900/10 backdrop-blur-md p-4 flex justify-between items-center">
-            <div className="text-white font-semibold">PIKASHOWGAMES</div>
+          <div className="sticky top-0  z-10 bg-slate-900/10 backdrop-blur-md p-4 flex justify-between items-center">
+            <div className="text-white font-semibold flex gap-2 mx-auto">
+              <img className="h-10 w-10" src="/logo.png" alt="" />
+              <p className="m-auto">PIKASHOWGAMES</p>
+
+            </div>
 
           </div>
 
           {/* AD SECTION */}
-          <div className="p-4 h-[400px] ">
-            <ins
+          {/* <div className="p-4 h-[400px] "> */}
+            {/* <ins
               className="adsbygoogle"
               style={{ display: 'block', height: '100%' }}
               data-ad-client="ca-pub-3990057144186847"
               data-ad-slot="3747311226"
               data-ad-format="auto"
               data-full-width-responsive="true"
-            />
-          </div>
+            /> */}
+          {/* </div> */}
 
           {/* CATEGORY LIST */}
           <div className="px-4 grid grid-cols-2 mt-10 text-white">

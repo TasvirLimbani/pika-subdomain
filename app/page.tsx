@@ -367,12 +367,7 @@ function HomeInner() {
 export default function Home() {
   return (
     <>
-      <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3990057144186847"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
+
       <div className="h-screen w-screen bg-black flex justify-center overflow-hidden">
         <div className="w-full max-w-[420px] h-full bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-y-auto scrollbar-hide">
 

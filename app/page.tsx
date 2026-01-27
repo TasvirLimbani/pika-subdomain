@@ -373,16 +373,19 @@ export default function Home() {
 
           <div className="sticky top-0  z-10 bg-slate-900/10 backdrop-blur-md p-4 flex justify-between items-center">
             <div className="text-white font-semibold flex gap-2 mx-auto">
-              <img className="h-10 w-10" src="/logo.png" alt="" />
-              <p className="m-auto">PIKASHOWGAMES</p>
+              <img className="h-10 w-10" src="/Logo.png" alt="Logo" />
+              <span className=" m-auto text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent hidden sm:inline">
+                PikaShowGames
+              </span>
 
             </div>
 
           </div>
 
+
           {/* AD SECTION */}
           {/* <div className="p-4 h-[400px] "> */}
-            {/* <ins
+          {/* <ins
               className="adsbygoogle"
               style={{ display: 'block', height: '100%' }}
               data-ad-client="ca-pub-3990057144186847"

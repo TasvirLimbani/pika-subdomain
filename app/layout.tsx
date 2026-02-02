@@ -62,6 +62,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* ✅ Google AdSense Script */}
+        <Script
+          async
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3990057144186847"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />

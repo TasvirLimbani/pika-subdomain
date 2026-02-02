@@ -11,6 +11,7 @@ import { useSearchParams } from "next/navigation"
 import { Gamepad2 } from 'lucide-react';
 import Script from 'next/script'
 import Link from "next/link"
+import GoogleAd from "@/components/GoogleAd"
 
 export const dynamic = "force-dynamic"
 
@@ -383,17 +384,8 @@ export default function Home() {
           </div>
 
 
-          {/* AD SECTION */}
-          {/* <div className="p-4 h-[400px] "> */}
-          {/* <ins
-              className="adsbygoogle"
-              style={{ display: 'block', height: '100%' }}
-              data-ad-client="ca-pub-3990057144186847"
-              data-ad-slot="3747311226"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            /> */}
-          {/* </div> */}
+          <GoogleAd adSlot="3747311226" />
+
 
           {/* CATEGORY LIST */}
           <div className="px-4 grid grid-cols-2 mt-10 text-white">
